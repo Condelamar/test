@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main () {
+    int a;
+    float b;
+    char c;
+
+    a = 5;
+    b = 2.3;
+    c = ' a ';
+
+    printf("\n O valor de a e igual a: %d\n", a);
+    printf("\n O valor de b e igual a: %.1f\n", b);
+    printf("\n O valor de c e igual a: %c\n", c);
+
+
+    scanf("%d",&a);
+    scanf("%f",&b);
+    scanf(" %c",&c);
+
+
+    printf("\n O Valor de a = %d\n", a);
+    printf("\n O Valor de b = %.1f\n", b);
+    printf("\n O valor de c = %c\n", c);
+
+    system(" pause");
